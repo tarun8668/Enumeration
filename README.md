@@ -62,58 +62,6 @@ This operator allows you to search for pages that contain specific text within t
 
 
 
-#### link:
-This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
-![link](https://github.com/Manoj162004/Enumeration/assets/120365042/d5251387-8b0d-4d0a-afd8-907162120f12)
-#### cache:
-This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
-
-![cache](https://github.com/Manoj162004/Enumeration/assets/120365042/738671f4-299e-418d-9cbb-506f5dd9b3fd)
-
- 
-### DNS Enumeration
-
-
-#### DNS Recon
-provides the ability to perform:
-Check all NS records for zone transfers
-Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
-Perform common SRV Record Enumeration
-Top level domain expansion
-#### OUTPUT:
-![dnsrecon](https://github.com/Manoj162004/Enumeration/assets/120365042/1a3cc453-2a54-4d24-bc01-a4e3b4e8cc36)
-
-#### dnsenum
-Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
-
-Get the host’s addresses (A record).
-Get the namservers (threaded).
-Get the MX record (threaded).
-Perform axfr queries on nameservers and get BIND versions(threaded).
-Get extra names and subdomains via google scraping (google query = “allinurl: -www site:domain”).
-Brute force subdomains from file, can also perform recursion on subdomain that have NS records (all threaded).
-Calculate C class domain network ranges and perform whois queries on them (threaded).
-Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
-Write to domain_ips.txt file ip-blocks.
-This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
-![dnsenum](https://github.com/Manoj162004/Enumeration/assets/120365042/a9219e21-cd20-4821-9bb7-7daf81066222)
-
-
-#### smtp-user-enum
-Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
-
-
-In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
-![meta-smpt](https://github.com/Manoj162004/Enumeration/assets/120365042/e7b5be29-844a-45b3-8459-f5bb01d4b2a4)
-
-select any username in the first column of the above file and check the same
-![smpt-user-enum](https://github.com/Manoj162004/Enumeration/assets/120365042/fa58d74f-1f73-4a59-90ef-4b9233bb0872)
-
-
-#### Telnet for smtp enumeration
-Telnet allows to connect to remote host based on the port no. For smtp port no is 25
-telnet <host address> 25 to connect
-and issue appropriate commands
   
 #### Output
   
