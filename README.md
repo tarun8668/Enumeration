@@ -64,12 +64,6 @@ This operator allows you to search for pages that contain specific text within t
 
   
 #### Output
-  
-![telnet](https://github.com/Manoj162004/Enumeration/assets/120365042/cb422b5a-acac-4e09-9b89-76fdc3ba0242)  
-
-#### nmap –script smtp-enum-users.nse <hostname>
-
-The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
 
 #### OUTPUT:
