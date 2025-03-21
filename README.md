@@ -3,74 +3,74 @@ Enumeration Techniques
 
 # Explore Google hacking and enumeration 
 
-## AIM:
+# AIM:
 
 To use Google for gathering information and perform enumeration of targets
 
-### STEPS:
+## STEPS:
 
-#### Step 1:
+### Step 1:
 
 Install kali linux either in partition or virtual box or in live mode
 
-#### Step 2:
+### Step 2:
 
 Investigate on the various Google hacking keywords and enumeration tools as follows:
 
 
-#### Step 3:
+### Step 3:
 Open terminal and try execute some kali linux commands
 
-### Pen Test Tools Categories:  
+## Pen Test Tools Categories:  
 
-Following Categories of pen test tools are identified:
-Information Gathering.
+### SITE : 
 
-### Google Hacking:
-
-Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
-
-#### site:
-This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
-Following searches for all the sites that is in the domain youtube.com
+![image](https://github.com/priya672003/Enumeration/assets/81132849/cb4b80df-153a-4584-8afe-34188a268067)
 
 
+### FILE TYPE :
+
+ ![image](https://github.com/priya672003/Enumeration/assets/81132849/34e0107b-8939-4765-ba92-c25545bed6dc)
+
+### INTEXT : 
+
+![image](https://github.com/priya672003/Enumeration/assets/81132849/cc36c180-8a41-4918-b21b-51f9e2f31049)
 
 
-![site](https://github.com/Manoj162004/Enumeration/assets/120365042/3f662fef-1bfb-4ada-846b-58e2f02205e0)
+### INURL : 
+
+![image](https://github.com/priya672003/Enumeration/assets/81132849/a8646ebb-79a7-43b0-ac72-2a3a74a73d56)
+
+
+### LINK :
+
+![image](https://github.com/priya672003/Enumeration/assets/81132849/e00e7fab-4eed-4df1-8685-a5b4e00f36fe)
+
+
+## DNS Enumeration::
+
+## DNS Recon:
+
+![image](https://github.com/priya672003/Enumeration/assets/81132849/8df741ff-2483-4d3c-ae6a-eab733891dc4)
+
+
+## dnsenum: 
+
+![image](https://github.com/priya672003/Enumeration/assets/81132849/75716f51-f043-4c36-a6ae-8da712e8afed)
+
+
+![image](https://github.com/priya672003/Enumeration/assets/81132849/ec0c924b-f766-4c78-9a0d-3600ebd478e9)
+
+## smtp-user-enum:
+
+![image](https://github.com/priya672003/Enumeration/assets/81132849/2e8fc17c-78d9-4b6d-aca1-0af18f6631ab)
+
+## nmap –script smtp-enum-users.nse :
+
+![image](https://github.com/priya672003/Enumeration/assets/81132849/2e875d53-6db9-476b-abf3-8e588615a018)
 
 
 
-#### filetype: 
-
-![file](https://github.com/Manoj162004/Enumeration/assets/120365042/8766c43e-431e-4153-a40d-6029bc53a2a8)
-This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
-Following searches for pdf file in the domain yahoo.com
-
-#### intext:
-This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
-![intext](https://github.com/Manoj162004/Enumeration/assets/120365042/47678407-b0b8-4964-8181-7c63fc06c5d8)
-
-
-#### inurl:
-This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
-![inurl](https://github.com/Manoj162004/Enumeration/assets/120365042/489b09da-e059-4a7d-8b87-d38846e4a629)
-
-#### intitle:
-This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
-![intittle](https://github.com/Manoj162004/Enumeration/assets/120365042/88596beb-c754-4557-bab8-4c235740e33f)
-
-
-
-  
-#### Output
-
-
-#### OUTPUT:
- 
-![nmap](https://github.com/Manoj162004/Enumeration/assets/120365042/33a55602-856f-419a-b835-bf08376c2138)
- 
-
-### RESULT:
+## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
 
